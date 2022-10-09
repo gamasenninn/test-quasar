@@ -1,2 +1,2 @@
-# test-quaser
-Test of Quaser
+# test-quasar
+Test of Quasar
