@@ -69,8 +69,9 @@
 <script>
 import { defineComponent } from 'vue'
 
-export default defineComponent({
-  name: "TodoItem",
+//export default defineComponent({
+export default {
+  //name: "TodoItem",
   data(){
     return{
       newTask:'',
@@ -97,8 +98,8 @@ export default defineComponent({
       this.newTask = ''
     }
   }
-
-})
+}
+//})
 
 </script>
 
