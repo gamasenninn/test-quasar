@@ -6,7 +6,8 @@ const routes = [
     children: [
       { path: '', component: () => import('src/pages/TodoItem.vue') },
       { path: '/help', component: () => import('src/pages/HelpPage.vue') },
-      { path: '/ajax', component: () => import('src/pages/AjaxPage.vue') }
+      { path: '/ajax', component: () => import('src/pages/AjaxPage.vue') },
+      { path: '/sqljs', component: () => import('src/pages/SqlJsPage.vue') }
     ]
   },
 

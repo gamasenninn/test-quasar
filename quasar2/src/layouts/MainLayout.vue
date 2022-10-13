@@ -12,8 +12,9 @@
         />
      </q-toolbar>
       <div class="q-px-lg q-pt-xl q-mb-md">
-        <div  class="text-h3 ml-3"> Todo</div>      
-        <div  class="text-subtitle"> {{ todaysDate }}</div>      
+        <div  class="text-h3 ml-3"> RFLP </div>      
+        <div  class="text-subtitle"> Hikousen Label Print system</div>
+        <div  class="text-subtitle"> {{ todaysDate }}</div>
       </div>
 
     </q-header>
@@ -32,7 +33,7 @@
               clickable 
               v-ripple>
               <q-item-section avatar>
-                <q-icon name="list" />
+                <q-icon name="check" />
               </q-item-section>
 
               <q-item-section>
@@ -60,11 +61,25 @@
               clickable 
               v-ripple>
               <q-item-section avatar>
-                <q-icon name="help" />
+                <q-icon name="list" />
               </q-item-section>
 
               <q-item-section>
                 Ajax
+              </q-item-section>
+            </q-item>
+
+            <q-item
+              to="/sqljs" 
+              exact 
+              clickable 
+              v-ripple>
+              <q-item-section avatar>
+                <q-icon name="list" />
+              </q-item-section>
+
+              <q-item-section>
+                SqlJs
               </q-item-section>
             </q-item>
 
@@ -73,11 +88,11 @@
 
         <q-img class="absolute-top" src="https://cdn.quasar.dev/img/material.png" style="height: 150px">
           <div class="absolute-bottom bg-transparent">
-            <q-avatar size="56px" class="q-mb-sm">
-              <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+            <q-avatar size="80px" class="q-mb-sm">
+              <img src="~assets/animal_kaeru.png">
             </q-avatar>
-            <div class="text-weight-bold">Razvan Stoenescu</div>
-            <div>@rstoenescu</div>
+            <div class="text-weight-bold">satoshi ono </div>
+            <div>@gamasenninn</div>
           </div>
         </q-img>
       </q-drawer>
